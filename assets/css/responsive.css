@@ -1,0 +1,140 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    /*.container {*/
+    /*    max-width: 350px;*/
+    /*    margin: auto;*/
+    /*    padding: 10px;*/
+    /*}*/
+    /* Card Slider */
+    .label-container h2 {
+        color: #111;
+        font-family: Poppins, serif;
+        margin-right: auto;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .label-container i {
+        font-size: 14px;
+    }
+
+    /* Card Slider */
+    /* Restaurant Card */
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .image-container img {
+        width: 180px;
+        height: 140px;
+        display: block;
+        border-radius: 20px;
+        object-fit: cover;
+        image-rendering: pixelated;
+    }
+
+    .image-container::after {
+        content: "";
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        border: none;
+        border-radius: 0 0 20px 20px;
+        bottom: 0;
+        background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 0.8) 100%
+        );
+    }
+
+    .add_to_cart {
+        position: absolute;
+        color: #fff;
+        bottom: 0;
+        left: 10px;
+        padding: 5px;
+        z-index: 2;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: "Proxima Nova Condensed", sans-serif;
+    }
+
+    .restaurant-name {
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .info-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .rating {
+        display: flex;
+        align-items: start;
+        margin-top: 3px;
+        font-weight: bold;
+    }
+
+    .review-count {
+        margin-left: 3px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .delivery-info {
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .bi-dot {
+        font-size: 16px;
+    }
+
+    /* Restaurant Card */
+}
+
+
+/*@media (min-width: 576px) {*/
+/*    .container {*/
+/*        max-width: 540px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*    .container {*/
+/*        max-width: 720px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+/*    .container {*/
+/*        max-width: 960px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*    .container {*/
+/*        max-width: 1140px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1400px) {*/
+/*    .container {*/
+/*        max-width: 1320px;*/
+/*    }*/
+/*}*/

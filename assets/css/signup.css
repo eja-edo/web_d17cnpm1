@@ -1,0 +1,419 @@
+:root{
+    --main-color : #DB4444;
+    --background-color : #F5F5F5;
+    --green--Color : #00FF66;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+::selection {
+    background-color: var(--main-color);
+}
+#container{
+    margin: auto;
+    width: 1440px;
+    min-height: 1000px;
+    box-shadow: 0 0 10px 0 var(--background-color);
+}
+#header{
+    width: 1440px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+#topheader{
+    width: 1440px;
+    height: 48px;
+    background: #000000;
+    color: #ffff; 
+    margin: auto;
+    border: none;
+    box-shadow: 0 0 5px 0 #000000;
+}
+#textheader{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textheader a{
+    padding-left: 10px;
+    color: #ffff;
+    font-weight: 600;
+}
+.languagelist{
+    width: 78px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 120px;
+}
+.languagelist select{
+    background: #000000;
+    color: #ffff;
+    border: none;
+    outline: none;
+}
+.languagelist option{
+    padding: 12px 16px;
+    text-align: center;
+}
+.languagelist option:checked{
+    background: gray;
+}
+#menu{
+    margin: auto;
+    width: 1440px;
+    height: 120px;
+    border-bottom: 1px rgb(204, 201, 201) solid;
+}
+.layoutmenu{
+    width: 1188px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    gap: 40px;
+    left: 130px;
+}
+.menuheader{
+    position: relative;
+    left : -100px;
+}
+.menuheader ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    top: 15px;
+    left: 65px;
+}
+.menuheader li{
+    padding-left: 50px;
+}
+.menuheader li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.25rem;
+}
+.menuheader li a:hover{
+    border-bottom: 1px rgb(204, 201, 201) solid;
+    transition: 0.15s;
+}
+.layoutmenu .webname a{
+    font-size: 2rem;
+    position: relative;
+    top: 10px;
+    left: -139px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.searchnav input{
+    width: 263px;
+    padding: 10px 15px;
+    position: relative;
+    top: 7px;
+    left: 65px;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    background: url(../img/search.png) no-repeat;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    border: none;
+}
+.searchIcon{
+    cursor: pointer;
+}
+.favoriteIcon{
+    width: 27px;
+    height: 22px;
+    background: url(../img/favorite.png) no-repeat;
+    position: relative;
+    top: -22px;
+    left: 355px;
+}
+.cartIcon{
+    width: 30px;
+    height: 28px;
+    background: url(../img/cart.png) no-repeat;
+    position: relative;
+    top: -50px;
+    left: 400px;
+}
+
+#content{
+    width: 1305px;
+    height: 781px;
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#content .leftSide{
+    width: 805px;
+    height: 781px;
+    background: url(../img/signUpimg.png ) no-repeat; 
+    z-index: 2;
+}
+#content .rightSide{
+    width: 371px;
+    height: 530px;
+    background-color: #ffffff;
+}
+#content .rightSide .title{ 
+    font-size: 2.85rem;
+}
+#content .rightSide .text{
+    font-size: 1.35rem;  
+    margin-top: 30px;
+}
+#content .rightSide input{
+    border: none;
+    outline: none;
+    margin: auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.699);
+    height: 35px;
+    width: 369px;
+    margin-top: 30px;
+}
+#content .rightSide input::placeholder{
+    font-size: 1.25rem;
+    color: rgba(121, 121, 121, 0.689);
+}
+
+.rightSide button{
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    width: 369px;
+    height: 56px;
+    font-size: 1.2rem;
+}
+.rightSide button:hover,
+.rightSide button:active{
+    cursor: pointer;
+}
+.rightSide tr:nth-child(5){
+    width: 369px;
+    height: 56px;
+    
+}
+.rightSide .box{
+    margin-top: 15px;
+    width: 369px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.rightSide .box a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.rightSide .ggIcon{
+    width: 24px;
+    height: 24px;
+    background: url(../img/ggIcon.png) no-repeat;
+}
+.rightSide tr:nth-child(6) td{
+    margin: auto;
+    margin-top: 45px;
+    display: flex;
+    width: 248px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.rightSide tr:nth-child(6) .textAcc{
+    font-size: 1.15rem;
+    color: rgba(128, 128, 128, 0.834);
+}
+.rightSide tr:nth-child(6) td a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.15rem;
+}
+.rightSide tr:nth-child(6) td a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    transition: 0.1s ease-in;
+}
+.rightSide .error{
+    color: #DB4444;
+    font-size: 1.1rem;
+}
+#footer{
+    margin-top: 110px;
+    width: 1440px;
+    height: 440px;
+    background: #000000;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .layoutF{
+    width: 1170px;
+    height: 236px;
+    position: relative;
+    top: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#footer .f1 li:nth-child(2){
+    font-size: 1.4rem;
+}
+#footer .f1 input{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ffff;
+    color: #fff;
+    background-color: #0000;   
+}
+#footer .f1 .footerInputIcon
+{
+    width: 24px;
+    height: 24px;
+    background: url(../img/footerInputIcon.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 180px;
+}
+#footer .f1 .footerInputIcon:hover,
+#footer .f1 .footerInputIcon:active
+{
+    cursor: pointer;
+    outline: none;
+}
+.f1 li:nth-child(4){
+    display: flex;
+    align-items: center;
+}
+#footer .copyRight{
+    width: 1440px;
+    height: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 125px;
+    border-top: 1px solid rgba(128, 128, 128, 0.222);
+}
+#footer .copyRight .textCopy{
+    width: 337px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#footer .copyRight .copyIcon{
+    width: 20px;
+    height: 20px;
+    background: url(../img/copy.png) no-repeat;
+}
+.copyRight .text{
+    color: gray;
+}
+#footer li a {
+    text-decoration: none;
+    color: #ffff;
+}
+#footer ul{
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+#footer ul li{
+    margin-bottom: 28px;
+}
+
+#footer ul li .firstF:first-child{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.f5 .qrCode{
+    width: 198px;
+    height: 84px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f5 .qrCode .qr{
+    width: 80px;
+    height: 80px;
+    background: url(../img/footerQr.png) no-repeat;
+    z-index: 3;
+}
+.f5 .qrCode .downloadApp{
+    width: 110px;
+    height: 84px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.qrCode .downloadApp .ggplay{
+    width: 110px;
+    height: 40px;
+    background: url(../img/GooglePlay.png) no-repeat;
+}
+.qrCode .downloadApp .applestore{
+    width: 110px;
+    height: 40px;
+    background: url(../img/footerApplestore.png);
+}
+.layoutF .f5 .listIcon{
+    width: 168px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f5 .listIcon .IconFb{
+    width: 24px;
+    height: 24px;
+    background: url(../img/facebookIcon.png) no-repeat;
+}
+.f5 .listIcon .IconTw{
+    width: 24px;
+    height: 24px;
+    background: url(../img/twiterIcon.png) no-repeat;
+}
+.f5 .listIcon .IconInsta{
+    width: 24px;
+    height: 24px;
+    background: url(../img/instagramIcon.png) no-repeat;
+}
+.f5 .listIcon .IconIn{
+    width: 24px;
+    height: 24px;
+    background: url(../img/inIcon.png) no-repeat;
+}

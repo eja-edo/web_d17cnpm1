@@ -1,0 +1,2137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Dropdown</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="#" rel="icon">
+    <link href="#" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900" rel="stylesheet">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/base.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/mixiShop.png" type="image/x-icon">
+</head>
+<body>
+<header id="header">
+    <div class="header-top row">
+        <div class="title col-md-8 d-flex align-items-center justify-content-end">
+            <span class="content">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </span>
+            <a href="#" class="shop_url text-white">ShopNow</a>
+        </div>
+        <div class="dropdown col-md-3 d-flex align-items-center justify-content-end">
+            <div class="dropdownMenu">
+                <a class="#" href="#" id="dropdownMenu2"  data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <span>English</span>
+                        <span><i class="bi bi-chevron-down"></i></span>
+                    </div>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li>
+                        <button class="dropdown-item" type="button">English</button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item" type="button">Vietnamese</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-header d-flex align-items-center justify-content-center">
+        <div class="navbar-items navbar-light d-flex align-items-center justify-content-between container-fluid mt-3">
+            <a class="navbar-brand col-md-2">Exclusive</a>
+            <ul class="list_items d-flex align-items-center justify-content-between col-md-4 mt-3">
+                <li class="item_nav active_nav">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="item_nav">
+                    <a href="./contact.html">Contact</a>
+                </li>
+                <li class="item_nav">
+                    <a href="./about.html">About</a>
+                </li>
+                <li class="item_nav">
+                    <a href="./register.html">Sign Up</a>
+                </li>
+            </ul>
+            <div class="action_login d-flex align-items-center justify-content-between">
+                <form class="form-inline d-flex justify-content-center align-items-center bg-light">
+                    <input class="form-control bg-light border-0 mr-sm-2" type="search" placeholder="What are you looking for?"   aria-label="Search" id="inputSearch">
+                    <span><i class="bi bi-search icon_search"></i></span>
+                </form>
+                <div class="login_option">
+                    <ul class="list_option d-flex align-items-center justify-content-between">
+                        <li class="option_item wishlist_item">
+                            <a class="icon_url" href="#"><i class="bi bi-heart"></i></a>
+                        </li>
+                        <li class="option_item cart_item">
+                            <a class="icon_url" href="#"><i class="bi bi-cart3"></i></a>
+                            <div class="count_cart">
+                                <span>2</span>
+                            </div>
+                        </li>
+                        <li class="option_item dropdown_user">
+                            <div class="dropdown">
+                                <div class="account_dropdown cursor_pointer" data-bs-toggle="dropdown"        aria-expanded="false">
+                                    <i class="bi bi-person-circle"></i>
+                                </div>
+                                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <i class="bi bi-person"></i> <span>Manage My Account</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <i class="bi bi-bag-check"></i> <span>My Order</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <i class="bi bi-x-circle"></i> <span>My Cancellations</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <i class="bi bi-star"></i> <span>My Review</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                            <i class="bi bi-box-arrow-left"></i> <span>Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="main" class="main_container">
+    <div id="banner_view" class="banner_view row">
+        <div class="col-md-2 list_category">
+            <ul class="categories">
+                <li class="category_item">
+                    <a href="#">
+                        <span>Woman’s Fashion</span> <i class="bi bi-chevron-right"></i>
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        <span> Men’s Fashion</span> <i class="bi bi-chevron-right"></i>
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Electronics
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Home & Lifestyle
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Medicine
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Sports & Outdoor
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Baby’s & Toys
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Groceries & Pets
+                    </a>
+                </li>
+                <li class="category_item">
+                    <a href="#">
+                        Health & Beauty
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10 main_banner">
+            <div id="mySlider" class="pandapp-slider">
+                <div class="pandapp-wrapper">
+                    <div class="pandapp-slide"> 
+                        <img src="assets/img/banner1.webp" alt="">
+                    </div>
+                    <div class="pandapp-slide">
+                        <img src="assets/img/banner2.webp" alt="">
+                    </div>
+                    <div class="pandapp-slide">
+                        <img src="assets/img/banner3.webp" alt="">
+                    </div>
+                    <div class="pandapp-slide">
+                        <img src="assets/img/banner4.webp" alt="">
+                    </div>
+                    <div class="pandapp-slide">
+                        <img src="assets/img/banner5.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="today_view" class="today_view pb-5">
+        <div class="main_today">
+            <div class="top_header_today">
+                <div class="content d-flex justify-content-start align-items-center">
+                    <div class="box">
+                    </div>
+                    <div class="title">
+                        Today's
+                    </div>
+                </div>
+            </div>
+            <div class="header_today d-flex flex-row bd-highlight align-items-end">
+                <div class="title bd-highlight d-flex justify-content-between align-items-end">
+                    Flash Sales
+                </div>
+                <div class="count_down bd-highlight">
+                    <div class="countdown d-flex justify-content-between align-items-center">
+                        <ul class="d-flex justify-content-between align-items-center mb-0">
+                            <li class="countdown__days js-days">
+                                <p class="item">Days</p>
+                                <div class="d-flex justify-content-between  align-items-start">
+                                    <p class="time_ time_day mb-0"></p> <span class="time_color">:</span>
+                                </div>
+                            </li>
+                            <li class="countdown__hours js-hours">
+                                <p class="item">Hours</p>
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <p class="time_ time_hours mb-0"></p> <span class="time_color">:</span>
+                                </div>
+                            </li>
+                            <li class="countdown__minutes js-minutes">
+                                <p class="item">Minutes</p>
+                                <div class="d-flex justify-content-between  align-items-start">
+                                    <p class="time_ time_minutes mb-0"></p> <span class="time_color">:</span>
+                                </div>
+                            </li>
+                            <li class="countdown__seconds js-seconds">
+                                <p class="item">Seconds</p>
+                                <div class="d-flex justify-content-between  align-items-start">
+                                    <p class="time_ time_seconds mb-0"></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation_slider flex-grow-1 bd-highlight d-flex justify-content-end align-items-end">
+                    <div class="list-icon label-container d-flex justify-content-center align-items-end">
+                        <button class="restaurant-arrow-left"><i class="bi bi-arrow-left"></i></button>
+                        <button class="restaurant-arrow-right"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="main_item_today slider mt-5">
+                <div class="restaurant-container pb-5">
+                    <div class="card-slider">
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="image-container">
+                                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                     alt="">
+                                <div class="add_to_cart text-center">Add to cart</div>
+                                <div class="discount_area">
+                                    -40%
+                                </div>
+                                <ul class="list-action">
+                                    <li class="mb-3">
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mt-3">
+                                        <a href="#">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                            <div class="info-container mt-2">
+                                <div class="product-price d-flex justify-content-start align-items-center">
+                                    <div class="new-price">
+                                        $120
+                                    </div>
+                                    <strike class="old-price">
+                                        $160
+                                    </strike>
+                                </div>
+                                <div class="info-row">
+                                    <div class="rating">
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                        <span class="review-count">(4.6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <a href="#" class="btnViewAll">View All Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="category_view" class="category_view pb-5">
+        <div class="main_category">
+            <div class="top_header_category">
+                <div class="content d-flex justify-content-start align-items-center">
+                    <div class="box">
+
+                    </div>
+                    <div class="title">
+                        Categories
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_category d-flex flex-row bd-highlight align-items-end">
+            <div class="title bd-highlight d-flex justify-content-between align-items-end">
+                Browse By Category
+            </div>
+            <div class="navigation_slider flex-grow-1 bd-highlight d-flex justify-content-end align-items-end">
+                <div class="list-icon label-container d-flex justify-content-center align-items-end">
+                    <button class="category-arrow-left"><i class="bi bi-arrow-left"></i></button>
+                    <button class="category-arrow-right"><i class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="main_item_category slider mt-5">
+            <div class="restaurant-container pb-5">
+                <div class="category-slider">
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category01.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Phones</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category02.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Laptop</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category03.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Games</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category04.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Developer</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category05.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Tester</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category06.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">Coder</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category03.png" alt="">
+                        </div>
+                        <h3 class="content mt-2">SmartWatch</h3>
+                    </div>
+                    <div class="category_main_item">
+                        <div class="image-category">
+                            <img src="/assets/img/category04.png" alt="">
+                        </div>
+                        <h3 class="content">Camera</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="this_month_view" class="this_month_view">
+        <div class="main_this_month">
+            <div class="top_header_this_month">
+                <div class="content d-flex justify-content-start align-items-center">
+                    <div class="box">
+
+                    </div>
+                    <div class="title">
+                        Categories
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_this_month d-flex justify-content-between align-items-end">
+            <div class="title bd-highlight d-flex justify-content-between align-items-end">
+                Best Selling Products
+            </div>
+            <a href="#" class="btnViewAll text-center">View All</a>
+        </div>
+
+        <div class="main_item_this_month d-flex justify-content-between align-items-center">
+            <div class="restaurant-card">
+                <div class="image-container">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                         alt="">
+                    <div class="add_to_cart text-center">Add to cart</div>
+                    <ul class="list-action">
+                        <li class="mb-3">
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li class="mt-3">
+                            <a href="#">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                <div class="info-container mt-2">
+                    <div class="product-price d-flex justify-content-start align-items-center">
+                        <div class="new-price">
+                            $120
+                        </div>
+                        <strike class="old-price">
+                            $160
+                        </strike>
+                    </div>
+                    <div class="info-row">
+                        <div class="rating">
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="review-count">(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="restaurant-card">
+                <div class="image-container">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                         alt="">
+                    <div class="add_to_cart text-center">Add to cart</div>
+                    <ul class="list-action">
+                        <li class="mb-3">
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li class="mt-3">
+                            <a href="#">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                <div class="info-container mt-2">
+                    <div class="product-price d-flex justify-content-start align-items-center">
+                        <div class="new-price">
+                            $120
+                        </div>
+                        <strike class="old-price">
+                            $160
+                        </strike>
+                    </div>
+                    <div class="info-row">
+                        <div class="rating">
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="review-count">(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="restaurant-card">
+                <div class="image-container">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                         alt="">
+                    <div class="add_to_cart text-center">Add to cart</div>
+                    <ul class="list-action">
+                        <li class="mb-3">
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li class="mt-3">
+                            <a href="#">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                <div class="info-container mt-2">
+                    <div class="product-price d-flex justify-content-start align-items-center">
+                        <div class="new-price">
+                            $120
+                        </div>
+                        <strike class="old-price">
+                            $160
+                        </strike>
+                    </div>
+                    <div class="info-row">
+                        <div class="rating">
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="review-count">(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="restaurant-card">
+                <div class="image-container">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                         alt="">
+                    <div class="add_to_cart text-center">Add to cart</div>
+                    <ul class="list-action">
+                        <li class="mb-3">
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li class="mt-3">
+                            <a href="#">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                <div class="info-container mt-2">
+                    <div class="product-price d-flex justify-content-start align-items-center">
+                        <div class="new-price">
+                            $120
+                        </div>
+                        <strike class="old-price">
+                            $160
+                        </strike>
+                    </div>
+                    <div class="info-row">
+                        <div class="rating">
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                            <span class="review-count">(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sup_banner_view" class="sup_banner_view">
+        <div class="main_content">
+            <div class="header">
+                Categories
+            </div>
+            <div class="title">
+                Enhance Your <br/> Music Experience
+            </div>
+            <div class="sup_countdown">
+                <div class="main_sup_countdown d-flex justify-content-between align-items-center">
+                    <ul class="d-flex justify-content-between align-items-center mb-0">
+                        <li class="countdown__days js-sup-days d-flex flex-column justify-content-center align-items-center">
+                            <div class="d-flex justify-content-between  align-items-start">
+                                <p class="time_ time_day mb-0"></p>
+                            </div>
+                            <p class="item">Days</p>
+                        </li>
+                        <li class="countdown__hours js-sup-hours d-flex flex-column justify-content-center align-items-center">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <p class="time_ time_hours mb-0"></p>
+                            </div>
+                            <p class="item">Hours</p>
+                        </li>
+                        <li class="countdown__minutes js-sup-minutes d-flex flex-column justify-content-center align-items-center">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <p class="time_ time_minutes mb-0"></p>
+                            </div>
+                            <p class="item">Minutes</p>
+                        </li>
+                        <li class="countdown__seconds js-sup-seconds d-flex flex-column justify-content-center align-items-center">
+                            <div class="d-flex justify-content-between  align-items-start">
+                                <p class="time_ time_seconds mb-0"></p>
+                            </div>
+                            <p class="item">Seconds</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="btnBuyNow">Buy now!</a>
+        </div>
+        <img class="image_banner_sup" src="assets/img/banner.png" alt="">
+    </div>
+
+    <div id="product_view" class="product_view">
+        <div class="main_product">
+            <div class="top_header_product">
+                <div class="content d-flex justify-content-start align-items-center">
+                    <div class="box">
+
+                    </div>
+                    <div class="title">
+                        Our Products
+                    </div>
+                </div>
+            </div>
+            <div class="header_product d-flex justify-content-between align-items-end">
+                <div class="title d-flex justify-content-between align-items-end">
+                    Explore Our Products
+                </div>
+                <div class="navigation_slider d-flex justify-content-end align-items-end">
+                    <div class="list-icon label-container d-flex justify-content-center align-items-end">
+                        <button class="product-arrow-left"><i class="bi bi-arrow-left"></i></button>
+                        <button class="product-arrow-right"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="main_item_product slider mt-5">
+                <div class="restaurant-container pb-5">
+                    <div class="product-slider">
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <div class="new_area text-uppercase">
+                                        new
+                                    </div>
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage%20(1).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <div class="new_area text-uppercase">
+                                        new
+                                    </div>
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage%20(2).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage%20(3).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="restaurant-card">
+                            <div class="product-one">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-one mt-5">
+                                <div class="image-container">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/be4h2xc9cqcugdjydotn"
+                                         alt="">
+                                    <div class="add_to_cart text-center">Add to cart</div>
+                                    <!--                                    <div class="discount_area">-->
+                                    <!--                                        -40%-->
+                                    <!--                                    </div>-->
+                                    <ul class="list-action">
+                                        <li class="mb-3">
+                                            <a href="#">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <a href="#">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="restaurant-name mt-2">HAVIT HV-G92 Gamepad</h3>
+                                <div class="info-container mt-2">
+                                    <div class="product-price d-flex justify-content-start align-items-center">
+                                        <div class="new-price">
+                                            $120
+                                        </div>
+                                        <div class="info-row">
+                                            <div class="rating">
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="rating-star"><i class="bi bi-star-fill star"></i></span>
+                                                <span class="review-count">(4.6)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup__image">
+                                        <img src="assets/images/Colour%20Chnage.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <a href="#" class="btnViewAll">View All Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="feature_view" class="feature_view">
+        <div class="main_feature">
+            <div class="top_header_feature">
+                <div class="content d-flex justify-content-start align-items-center">
+                    <div class="box">
+
+                    </div>
+                    <div class="title">
+                        Featured
+                    </div>
+                </div>
+            </div>
+            <div class="header_feature d-flex justify-content-between align-items-end">
+                <div class="title d-flex justify-content-between align-items-end">
+                    New Arrival
+                </div>
+            </div>
+            <div class="main_item_feature d-flex justify-content-between align-items-center mt-5">
+                <div class="main_image_one col-md-6">
+                    <img src="assets/img/arriaval01.png" alt="">
+                    <div class="content_main">
+                        <div class="title">
+                            PlayStation 5
+                        </div>
+                        <div class="content">
+                            Black and White version of the PS5 <br/> coming out on sale.
+                        </div>
+                        <a href="#" class="shop_now">
+                            Shop Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 main_image_multiple d-flex flex-column justify-content-between align-items-center">
+                    <div class="sup_main_image_one">
+                        <img class="sup_main_image"
+                             src="assets/img/arrival02.png" alt="">
+                        <div class="sup_content_main">
+                            <div class="title">
+                                Women’s Collections
+                            </div>
+                            <div class="content">
+                                Featured woman collections that <br/> give you another vibe.
+                            </div>
+                            <a href="#" class="shop_now">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sup_main_image_multiple d-flex justify-content-between align-items-center">
+                        <div class="image_sup_one">
+                            <img class="container_image_sup_one" src="assets/img/arriaval03.png" alt="">
+                            <div class="action_content_main_one">
+                                <div class="title">
+                                    Speakers
+                                </div>
+                                <div class="content">
+                                    Amazon wireless speakers
+                                </div>
+                                <a href="#" class="shop_now">
+                                    Shop Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="image_sup_two">
+                            <img class="container_image_sup_two"
+                                 src="assets/img/arriaval04.png" alt="">
+                            <div class="action_content_main_two">
+                                <div class="title">
+                                    Perfume
+                                </div>
+                                <div class="content">
+                                    GUCCI INTENSE OUD EDP
+                                </div>
+                                <a href="#" class="shop_now">
+                                    Shop Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="action_view" class="action_view d-flex justify-content-center align-items-center">
+        <div class="free_view d-flex align-items-center justify-content-center flex-column">
+            <div class="icon">
+                <img src="assets/img/featureBlock01.png" alt="">
+            </div>
+            <div class="title mt-3">
+                FREE AND FAST DELIVERY
+            </div>
+            <div class="desc mt-3">
+                Free delivery for all orders over $140
+            </div>
+        </div>
+        <div class="custom d-flex align-items-center justify-content-center flex-column">
+            <div class="icon">
+                <img src="assets/img/featureBlock02.png" alt="">
+            </div>
+            <div class="title mt-3">
+                24/7 CUSTOMER SERVICE
+            </div>
+            <div class="desc mt-3">
+                Friendly 24/7 customer support
+            </div>
+        </div>
+        <div class="money d-flex align-items-center justify-content-center flex-column">
+            <div class="icon">
+                <img src="assets/img/featureBlock03.png" alt="">
+            </div>
+            <div class="title mt-3">
+                MONEY BACK GUARANTEE
+            </div>
+            <div class="desc mt-3">
+                We reurn money within 30 days
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer" class="container-fluid">
+    <div class="main-footer d-flex align-items-start justify-content-between">
+        <div class="footer_main_item">
+            <p class="exclusive"><a href="">Exclusive</a></p>
+            <p class="subscribe"><a href="">Subscribe</a></p>
+            <p class="first_order"><a href="">Get 10% off your first order</a></p>
+            <form class="form-inline d-flex justify-content-center align-items-center">
+                <input class="form-control border-0 mr-sm-2" type="search"
+                       placeholder="Enter your email"
+                       aria-label="Search" id="inputEmail">
+                <span><i class="bi bi-send icon_send"></i></span>
+            </form>
+        </div>
+        <div class="footer_main_item">
+            <p class="support f_s_20_lh_28_w_500_c_fff">Support</p>
+            <p class="address f_s_16_lh_24_w_400_c_fff">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+            <p class="email f_s_16_lh_24_w_400_c_fff">exclusive@gmail.com</p>
+            <p class="phone f_s_16_lh_24_w_400_c_fff">+88015-88888-9999</p>
+        </div>
+        <div class="footer_main_item">
+            <p class="account f_s_20_lh_28_w_500_c_fff">Account</p>
+            <p class="my_account f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">My Account</a>
+            </p>
+            <p class="auth f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Login / Register</a>
+            </p>
+            <p class="cart f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Cart</a></p>
+            <p class="wishlist f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Wishlist</a></p>
+            <p class="shop f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Shop</a></p>
+        </div>
+        <div class="footer_main_item">
+            <p class="quick_link f_s_20_lh_28_w_500_c_fff">Quick Link</p>
+            <p class="privacy f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Privacy Policy</a>
+            </p>
+            <p class="faq f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">FAQ</a></p>
+            <p class="contact f_s_16_lh_24_w_400_c_fff"><a class="f_s_16_lh_24_w_400_c_fff" href="">Contact</a></p>
+        </div>
+        <div class="footer_main_item">
+            <div class="download f_s_20_lh_28_w_500_c_fff">Download App</div>
+            <span class="desc f_s_12_lh_18_w_500_c_fff">Save $3 with App New User Only</span>
+            <div class="action_download d-flex justify-content-between align-items-center w-100">
+                <a href="" class="qr_image">
+                    <img src="/assets/img/footerQr.png" alt="">
+                </a>
+                <div class="download_option">
+                    <a href="" class="chplay bd-highlight mb-auto">
+                        <img src="/assets/img/GooglePlay.png" class="border" alt="">
+                    </a>
+                    <a href="" class="apple bd-highlight ">
+                        <img src="/assets/img/footerApplestore.png" class="border" alt="">
+                    </a>
+                </div>
+            </div>
+            <ul class="socials d-flex justify-content-between align-items-center w-100">
+                <li>
+                    <img src="assets/img/facebookIcon.png" alt="">
+                </li>
+                <li>
+                    <img src="assets/img/twiterIcon.png" alt="">
+                </li>
+                <li>
+                    <img src="assets/img/instagramIcon.png" alt="">
+                </li>
+                <li>
+                    <img src="assets/img/inIcon.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom_footer d-flex align-items-center justify-content-center">
+        <span class="reserved">&copy; Copyright Rimel 2022. All right reserved</span>
+    </div>
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
